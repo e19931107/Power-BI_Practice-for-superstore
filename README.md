@@ -11,3 +11,7 @@
 
 ## By State
 ![image](https://github.com/user-attachments/assets/114ddef5-1e65-426f-9c0a-31ca5b59dfd2)
+
+## RFM analysis
+![image](https://github.com/user-attachments/assets/92fc020d-b173-46ad-bd88-870b6d62a81a)
+
