@@ -24,11 +24,11 @@ Only Date Format needs to be adjusted.
 ## 2 kind of RFM analysis
 I found there are two type of RFM analysis, 1st one is grouping customers into 8 segments; 2nd one is grouping customers into 11 segments.
 
-8 segments:
+### 8 segments:
 
 https://powerbiacademy.medium.com/power-bi-rfm-%E6%A8%A1%E5%9E%8B-%E6%95%99%E4%BD%A0%E5%A6%82%E4%BD%95%E7%B4%B0%E7%B7%BB%E5%8C%96%E7%B6%93%E7%87%9F-crm-%E5%AE%A2%E6%88%B6%E9%97%9C%E4%BF%82-a09fc823a811
 
-11 segments:
+### 11 segments:
 
 https://gustiyaniz.medium.com/unleashing-customer-insights-a-guide-to-rfm-analysis-using-power-bi-648a1f56f036
 
@@ -38,6 +38,10 @@ In train dataset, I added two columns: Last Date to Purchase and R(Recency)
 
 Last Date to Purchase = MAXX(
     FILTER('train',EARLIER('train'[Customer ID])='train'[Customer ID]),'train'[Order Date].[Date])
+
+R = DATE(2019,1,1)-'train'[Last Date to Purchase].[Date]
+
+I set 2029/01/01 becasue later on when we present the number on the dashboard, the number won't be too large.
 
 
 ## Result
