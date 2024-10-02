@@ -1,4 +1,4 @@
-# Power-BI_Practice-for-superstore
+# Power-BI_RFM-analysis-for-superstore-dataset
 
 ## Data source:
 https://www.kaggle.com/datasets/bravehart101/sample-supermarket-dataset
