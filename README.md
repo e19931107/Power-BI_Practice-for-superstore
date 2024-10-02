@@ -15,15 +15,18 @@ Therefore, there are 1 sheet for summary analysis and 3 sheets analyzed by timel
 ## Data ETL
 The dataset is really clear and organized; therefore, I didn't speend too much effort on data ETL.
 Only Date Formate needs to be adjusted.
-### Befor
+### Before
 ![image](https://github.com/user-attachments/assets/2d266e4c-e3a1-4dad-a7fd-b405214e6fc7)
 
 ### After
 ![image](https://github.com/user-attachments/assets/6d8a50c7-7616-4089-bb2c-2f1299905ce7)
 
 ## RFM analysis
-
-
+I found there are two type of RFM analysis, 1st one is grouping customers into 8 segments; 2nd one is grouping customers into 11 segments.
+8 segments:
+https://powerbiacademy.medium.com/power-bi-rfm-%E6%A8%A1%E5%9E%8B-%E6%95%99%E4%BD%A0%E5%A6%82%E4%BD%95%E7%B4%B0%E7%B7%BB%E5%8C%96%E7%B6%93%E7%87%9F-crm-%E5%AE%A2%E6%88%B6%E9%97%9C%E4%BF%82-a09fc823a811
+11 segments:
+https://gustiyaniz.medium.com/unleashing-customer-insights-a-guide-to-rfm-analysis-using-power-bi-648a1f56f036
 
 ## Result
 ### Summary
