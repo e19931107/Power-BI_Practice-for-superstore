@@ -59,6 +59,20 @@ Rating for each customers' Recency, Frequency and Monetary
 
 > M_rate = IF('RFM'[M]>=AVERAGE(RFM[M]),2,1)
 
+### Step 4:
+After we rated for each customer, then we can combine their rating and give them a tag.
+
+>RFM = 'RFM'[R_rate]&'RFM'[F_rate]&'RFM'[M_rate]
+
+>會員分群 = SWITCH('RFM'[RFM],
+"111","流失會員",
+"112","重要挽留會員",
+"121","一般保持會員",
+"122","重要保持會員",
+"211","新會員",
+"212","重要發展會員",
+"221","一般價值會員",
+"222","重要價值會員")
 
 
 ## Result
