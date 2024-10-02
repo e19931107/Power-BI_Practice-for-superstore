@@ -21,6 +21,8 @@ Only Date Formate needs to be adjusted.
 ### After
 ![image](https://github.com/user-attachments/assets/6d8a50c7-7616-4089-bb2c-2f1299905ce7)
 
+## RFM analysis
+
 
 
 ## Result
