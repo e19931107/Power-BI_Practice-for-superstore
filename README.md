@@ -54,7 +54,9 @@ In this RFM table, it will identify customers' Recency, Frequency and Monetary.
 Rating for each customers' Recency, Frequency and Monetary
 
 > R_rate = IF('RFM'[R]<=AVERAGE(RFM[R]),1,2)
+
 > F_rate = IF('RFM'[F]>=AVERAGE(RFM[F]),2,1)
+
 > M_rate = IF('RFM'[M]>=AVERAGE(RFM[M]),2,1)
 
 
