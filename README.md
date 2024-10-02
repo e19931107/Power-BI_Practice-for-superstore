@@ -47,6 +47,7 @@ I set 2029/01/01 becasue later on when we present the number on the dashboard, t
 I generated new table from original dataset, this table I called it "RFM"
 In this RFM table, it will identify customers' Recency, Frequency and Monetary.
 > RFM = SUMMARIZE('train','train'[Customer ID],train[R],"F",'train'[F],"M",'train'[M])
+> 
 ![image](https://github.com/user-attachments/assets/7c6fea01-a4b0-4549-98d5-3d2174264672)
 
 
