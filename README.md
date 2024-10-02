@@ -1,5 +1,8 @@
 # Power-BI_Practice-for-superstore
 
+Data source:
+https://www.kaggle.com/datasets/bravehart101/sample-supermarket-dataset
+
 ## Summary
 ![image](https://github.com/user-attachments/assets/26ce09a9-dc77-456b-8c5f-9fbbce1141f2)
 
