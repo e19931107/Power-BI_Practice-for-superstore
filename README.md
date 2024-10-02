@@ -47,8 +47,16 @@ I set 2029/01/01 becasue later on when we present the number on the dashboard, t
 I generated new table from original dataset, this table I called it "RFM"
 In this RFM table, it will identify customers' Recency, Frequency and Monetary.
 > RFM = SUMMARIZE('train','train'[Customer ID],train[R],"F",'train'[F],"M",'train'[M])
-> 
+
 ![image](https://github.com/user-attachments/assets/7c6fea01-a4b0-4549-98d5-3d2174264672)
+
+### Step 3:
+Rating for each customers' Recency, Frequency and Monetary
+
+> R_rate = IF('RFM'[R]<=AVERAGE(RFM[R]),1,2)
+> F_rate = IF('RFM'[F]>=AVERAGE(RFM[F]),2,1)
+> M_rate = IF('RFM'[M]>=AVERAGE(RFM[M]),2,1)
+
 
 
 ## Result
