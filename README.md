@@ -14,6 +14,11 @@ Therefore, there are 1 sheet for summary analysis and 3 sheets analyzed by timel
 
 ## Data ETL
 
+![image](https://github.com/user-attachments/assets/2d266e4c-e3a1-4dad-a7fd-b405214e6fc7)
+
+![image](https://github.com/user-attachments/assets/6d8a50c7-7616-4089-bb2c-2f1299905ce7)
+
+
 
 ## Result
 ### Summary
