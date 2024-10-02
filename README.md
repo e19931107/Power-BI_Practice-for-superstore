@@ -13,9 +13,12 @@ There are 3 dimensions that we can analyze:
 Therefore, there are 1 sheet for summary analysis and 3 sheets analyzed by timeline, category and location, to make deeper analysis.
 
 ## Data ETL
-
+The dataset is really clear and organized; therefore, I didn't speend too much effort on data ETL.
+Only Date Formate needs to be adjusted.
+### Befor
 ![image](https://github.com/user-attachments/assets/2d266e4c-e3a1-4dad-a7fd-b405214e6fc7)
 
+### After
 ![image](https://github.com/user-attachments/assets/6d8a50c7-7616-4089-bb2c-2f1299905ce7)
 
 
