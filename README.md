@@ -1,7 +1,16 @@
 # Power-BI_Practice-for-superstore
 
-Data source:
+## Data source:
 https://www.kaggle.com/datasets/bravehart101/sample-supermarket-dataset
+
+## Introduction
+Super store data is popular in Kaggle.
+There are 3 dimensions that we can analyze: 
+1. Timeline: When customer purchase the products, When the products shipped out.
+2. Category: Category and sub-category
+3. Location: Where are the customers?
+
+Therefore, there are 1 sheet for summary analysis and 3 sheets analyzed by timeline, category and location, to make deeper analysis.
 
 ## Summary
 ![image](https://github.com/user-attachments/assets/26ce09a9-dc77-456b-8c5f-9fbbce1141f2)
