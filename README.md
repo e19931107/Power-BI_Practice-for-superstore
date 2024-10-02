@@ -43,6 +43,11 @@ In train dataset, I added two columns: Last Date to Purchase and R(Recency)
 
 I set 2029/01/01 becasue later on when we present the number on the dashboard, the number won't be too large.
 
+### Step 2:
+I generated new table from original dataset, this table I called it "RFM"
+In this RFM table, it will identify customers' Recency, Frequency and Monetary.
+> RFM = SUMMARIZE('train','train'[Customer ID],train[R],"F",'train'[F],"M",'train'[M])
+
 
 ## Result
 ### Summary
