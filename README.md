@@ -36,10 +36,10 @@ https://gustiyaniz.medium.com/unleashing-customer-insights-a-guide-to-rfm-analys
 ### Step 1:
 In train dataset, I added two columns: Last Date to Purchase and R(Recency)
 
-Last Date to Purchase = MAXX(
+> Last Date to Purchase = MAXX(
     FILTER('train',EARLIER('train'[Customer ID])='train'[Customer ID]),'train'[Order Date].[Date])
 
-R = DATE(2019,1,1)-'train'[Last Date to Purchase].[Date]
+> R = DATE(2019,1,1)-'train'[Last Date to Purchase].[Date]
 
 I set 2029/01/01 becasue later on when we present the number on the dashboard, the number won't be too large.
 
