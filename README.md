@@ -12,6 +12,8 @@ There are 3 dimensions that we can analyze:
 
 Therefore, there are 1 sheet for summary analysis and 3 sheets analyzed by timeline, category and location, to make deeper analysis.
 
+## Data ETL
+
 
 ## Result
 ### Summary
