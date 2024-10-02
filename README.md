@@ -36,9 +36,8 @@ https://gustiyaniz.medium.com/unleashing-customer-insights-a-guide-to-rfm-analys
 ### Step 1:
 In train dataset, I added two columns: Last Date to Purchase and R(Recency)
 
-`Last Date to Purchase = MAXX(
-    FILTER('train',EARLIER('train'[Customer ID])='train'[Customer ID]),'train'[Order Date].[Date])`
-
+> Last Date to Purchase = MAXX(
+    FILTER('train',EARLIER('train'[Customer ID])='train'[Customer ID]),'train'[Order Date].[Date])
 
 > R = DATE(2019,1,1)-'train'[Last Date to Purchase].[Date]
 
